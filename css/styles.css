@@ -50,8 +50,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-/*   almond */
-  --bs-bg-rgb: 234, 221, 202; 
+  --bs-almond-rgb: 234, 221, 202;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -8168,9 +8167,8 @@ textarea.form-control-lg {
 
 .bg-almond {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-bg-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-almond-rgb), var(--bs-bg-opacity)) !important;
 }
-
 
 .bg-black {
   --bs-bg-opacity: 1;
